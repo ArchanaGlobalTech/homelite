@@ -428,7 +428,7 @@ h3.menu-item-title {
   .navbar-brand h1 {
     /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    /* font-size: 5vw;1vw = 1% of viewport width */
   }
   .navbar-brand p {
     /* Kosher cert */
@@ -508,13 +508,13 @@ h3.menu-item-title {
     /*Restaurant Name*/
     font-family: "Lora", serif;
     color: #951c49;
-    font-size: 1.2em;
+    font-size: 1.75em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 10;
     margin-bottom: 0;
     line-height: 0.75;
-    align-content: center;
+    margin-left: 0px;
   }
 
   #success-title {
@@ -529,7 +529,7 @@ h3.menu-item-title {
   .navbar-brand h1 {
     /* Restaurant name */
     padding-top: 5px;
-    font-size: 6vw;
+    /*font-size: 6vw; */
   }
   /* End Header */
   /* Footer */
