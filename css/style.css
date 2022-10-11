@@ -7,7 +7,7 @@ body {
 
 /**Header**/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #fdc426;
   border-radius: 0;
   border: 0;
 }
@@ -41,11 +41,11 @@ body {
 .navbar-brand h1 {
   /*Restaurant Name*/
   font-family: "Lora", serif;
-  color: #557c3e;
-  font-size: 1.5em;
+  color: #951c49;
+  font-size: 1.75em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
+  margin-top: 10;
   margin-bottom: 0;
   line-height: 0.75;
 }
@@ -198,7 +198,7 @@ body {
 .btn-primary:visited {
   position: relative;
   margin-left: 45%;
-  background-color: #f6b319 !important;
+  background-color: #fdc426 !important;
 }
 /* MENU CATEGORIES PAGE */
 .category-tile {
@@ -331,10 +331,10 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url("../img/restaurant-logo_small.jpg") no-repeat;
-    width: 150px;
-    height: 70px;
-    margin: 25px 5px 5px 0;
+    background: url("../img/restaurant-logo_medium.jpg") no-repeat;
+    height: 100px;
+    width: 190px;
+    margin: 0px 15px 10px 0;
   }
   /* End Header */
   .container .jumbotron {
@@ -350,7 +350,7 @@ h3.menu-item-title {
   .btn-primary:visited {
     position: relative;
     margin-left: 40%;
-    background-color: #f6b319 !important;
+    background-color: #fdc426 !important;
   }
 }
 
@@ -369,13 +369,13 @@ h3.menu-item-title {
   .btn-primary:visited {
     position: relative;
     margin-left: 45%;
-    background-color: #f6b319 !important;
+    background-color: #fdc426 !important;
   }
 
   #nvbr01 h1 {
     /*Restaurant Name*/
     font-family: "Lora", serif;
-    color: #3f0c1f;
+    color: #951c49;
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -439,7 +439,7 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
+    background-color: #fdc426;
     color: #951c49;
   }
   #xs-deliver {
@@ -484,14 +484,14 @@ h3.menu-item-title {
   .btn-primary:visited {
     position: relative;
     margin-left: 40%;
-    background-color: #f6b319 !important;
+    background-color: #fdc426 !important;
   }
 
   #nvbr01 h1 {
     /*Restaurant Name*/
     font-family: "Lora", serif;
-    color: #3f0c1f;
-    font-size: 1.5em;
+    color: #951c49;
+    font-size: 1.1em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
