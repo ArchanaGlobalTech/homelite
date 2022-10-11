@@ -531,6 +531,14 @@ h3.menu-item-title {
     padding-top: 5px;
     /*font-size: 6vw; */
   }
+
+  #logo-img {
+    background: url("../img/restaurant-small.jpg") no-repeat;
+    height: auto;
+    width: 150;
+    margin: 10px 15px 10px 0;
+  }
+
   /* End Header */
   /* Footer */
   .panel-footer section {
