@@ -575,4 +575,17 @@ h3.menu-item-title {
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
+
+  #nvbr01 h1 {
+    /*Restaurant Name*/
+    font-family: "Lora", serif;
+    color: #951c49;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10;
+    margin-bottom: 0;
+    line-height: 0.75;
+    margin-left: 0px;
+  }
 }
