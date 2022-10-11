@@ -102,7 +102,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 /* END HEADER */
 /* FOOTER */
@@ -376,10 +376,10 @@ h3.menu-item-title {
     /*Restaurant Name*/
     font-family: "Lora", serif;
     color: #951c49;
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
+    margin-top: 10;
     margin-bottom: 0;
     line-height: 0.75;
   }
@@ -388,9 +388,26 @@ h3.menu-item-title {
     font-size: 1em;
     margin-bottom: 10px;
   }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #fdc426;
+    color: #951c49;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
 }
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 478px) and (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -491,12 +508,13 @@ h3.menu-item-title {
     /*Restaurant Name*/
     font-family: "Lora", serif;
     color: #951c49;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
+    margin-top: 10;
     margin-bottom: 0;
     line-height: 0.75;
+    align-content: center;
   }
 
   #success-title {
