@@ -335,6 +335,13 @@ h3.menu-item-title {
 [id^="PackSize"] {
   color: #61122f;
 }
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  color: #61122f;
+  text-decoration: dashed;
+}
 /* End Success Page */
 
 /********** Large devices only **********/

@@ -25,7 +25,7 @@ window.addEventListener(
                         alt="Item"
                         />
                     </div>
-                    <div class="menu-item-price">₹110</div>
+                    
                     </div>
                     <div class="menu-item-description col-sm-7">
                     <h3 class="menu-item-title">` +
@@ -91,11 +91,14 @@ window.addEventListener(
         `
                     </span>
                     </p>
-                
+                    <button id="placeorder_` +
+        i +
+        `" type="button" class="btn btn-primary">Place Order</button>
                 </div>
                     </p>
                     </div>
                 </div>
+                
                 <hr class="visible-xs" />
                 </div>`;
       if (i % 2 === 1 && i > 0) {
@@ -121,9 +124,24 @@ window.addEventListener("change", (event) => {
   let newqty = document.getElementById(qtySelected).value;
   let newqpack = document.getElementById(packSelected).value;
   console.log("newqty : " + newqty + " newqpack : " + newqpack);
-
+  let newPrice = newqty * menu[myArray[1]].pricing[newqpack];
   document.getElementById("priceofsweetpacks" + myArray[1]).textContent =
-    newqty * menu[myArray[1]].pricing[newqpack];
+    "₹" + newPrice;
 
   console.log(menu[myArray[1]].pricing["250 gm"]);
+});
+window.addEventListener("click", (event) => {
+  console.log("Something got clicked");
+  console.log(event.target.id);
+  let myArray = event.target.id.split("_");
+  let qtySelected = "quantityselected_" + myArray[1];
+  let packSelected = "PackSize_" + myArray[1];
+  console.log(myArray[1]);
+  let newqty = document.getElementById(qtySelected).value;
+  let newqpack = document.getElementById(packSelected).value;
+  console.log("newqty : " + newqty + " newqpack : " + newqpack);
+  let newPrice = newqty * menu[myArray[1]].pricing[newqpack];
+  console.log("Item Name : " + menu[myArray[1]].name + " Price : " + newPrice);
+
+  const fileSystem = require("browserify-fs");
 });
