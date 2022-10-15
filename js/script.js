@@ -37,9 +37,12 @@ window.addEventListener(
         `
                     </p>
                     <p class="menu-item-pricing">
-                    
+                    <span id="packsize">
                     Pack Size :
-                    <select name="PackSize" id="PackSize">
+                    </span>
+                    <select name="PackSize" id="PackSize_` +
+        i +
+        `">
                     <option value="` +
         Object.keys(menu[i].pricing)[0] +
         `">` +
@@ -57,11 +60,14 @@ window.addEventListener(
         `</option>
                     
                   </select>
-    </p>
-    <p class="menu-item-pricing">
-                    
+        </p>
+        <p class="menu-item-pricing">
+                    <span id="quantityofsweetpacks">
                     Quantity :
-                    <select name="PackSize" id="PackSize">
+                    </span>
+                    <select name="quantityselected" id="quantityselected_` +
+        i +
+        `">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -72,9 +78,21 @@ window.addEventListener(
                     <option value="24">24</option>
                     <option value="100">100</option>
                   </select>
-    </p>
-  
-</div>
+                    </p>
+                    <p class="calculated-price">
+                    <span id="pricelabelofsweetpacks">
+                    Price :
+                    </span>
+                    <span id="priceofsweetpacks` +
+        i +
+        `">
+                    ₹ ` +
+        menu[i].pricing["250 gm"] +
+        `
+                    </span>
+                    </p>
+                
+                </div>
                     </p>
                     </div>
                 </div>
@@ -89,3 +107,23 @@ window.addEventListener(
   },
   { once: true }
 );
+window.addEventListener("change", (event) => {
+  console.log("Something Changed");
+  console.log(event.target.id);
+  let myArray = event.target.id.split("_");
+
+  console.log(myArray[1]);
+  let qtySelected = "quantityselected_" + myArray[1];
+  let packSelected = "PackSize_" + myArray[1];
+  console.log(
+    "qtySelected : " + qtySelected + " packSelected : " + packSelected
+  );
+  let newqty = document.getElementById(qtySelected).value;
+  let newqpack = document.getElementById(packSelected).value;
+  console.log("newqty : " + newqty + " newqpack : " + newqpack);
+
+  document.getElementById("priceofsweetpacks" + myArray[1]).textContent =
+    newqty * menu[myArray[1]].pricing[newqpack];
+
+  console.log(menu[myArray[1]].pricing["250 gm"]);
+});

@@ -320,6 +320,21 @@ h3.menu-item-title {
   margin-bottom: 50px;
   font-family: "Courier New", Courier, monospace;
 }
+
+#quantityofsweetpacks,
+#packsize,
+#pricelabelofsweetpacks,
+#priceofsweetpacks {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  border: 1px solid #61122f;
+}
+
+[id^="quantityselected"],
+[id^="PackSize"] {
+  color: #61122f;
+}
 /* End Success Page */
 
 /********** Large devices only **********/
