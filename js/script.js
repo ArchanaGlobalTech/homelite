@@ -142,6 +142,4 @@ window.addEventListener("click", (event) => {
   console.log("newqty : " + newqty + " newqpack : " + newqpack);
   let newPrice = newqty * menu[myArray[1]].pricing[newqpack];
   console.log("Item Name : " + menu[myArray[1]].name + " Price : " + newPrice);
-
-  const fileSystem = require("browserify-fs");
 });
