@@ -310,10 +310,15 @@ h3.menu-item-title {
 .menu-item-photo a {
   color: white;
 }
+
+#PackSize {
+  color: #61122f;
+}
 /* END SINGLE CATEGORY PAGE */
 /* Start Success Page */
 #success-title {
   margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
 }
 /* End Success Page */
 

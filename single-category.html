@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lora&family=Mukta&family=Source+Serif+Pro&family=Tiro+Kannada&display=swap"
       rel="stylesheet"
     />
+    <script type="module" src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -29,14 +30,20 @@
         <div class="container">
           <div class="navbar-header">
             <!--pull left is bootstrap way of saying float left. visible-md and visible-lg will ensure that the impage is visible only when the screen is not small-->
-            <a href="index.html" class="pull-left visible-md visible-lg visible-sm visible-xs">
+            <a
+              href="index.html"
+              class="pull-left visible-md visible-lg visible-sm visible-xs"
+            >
               <div id="logo-img" alt="Logo image"></div>
             </a>
             <div class="navbar-brand" id="nvbr01">
-              <a href="index.html" class="pull-left visible-md visible-lg visible-xs visible-sm"><h1>Archana Sweets</h1></a>
+              <a
+                href="index.html"
+                class="pull-left visible-md visible-lg visible-xs visible-sm"
+                ><h1>Archana Sweets</h1></a
+              >
               <p>
                 <!--<img src="img/x.jpg" alt="sub text" />-->
-                
               </p>
             </div>
             <!--data-target="#collapsable-nav" points to the element with that ID-->
@@ -103,225 +110,47 @@
     <div id="main-content" class="container"></div>
     <h2 id="menu-categories-title" class="text-center">Any Timers</h2>
     <div class="text-center">These items are available all during the day</div>
-    <section class="row">
-      <div class="menu-item-tile col-md-6">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html">
-                <div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/A.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹110</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Spicy Idly</h3>
-            <p class="menu-item-details">
-              The tasty masala topping is made from onion, capsicum and tomatoes
-              with flavor of pav bhaji masala. Add flavor to the bread.
-            </p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
 
-      <div class="menu-item-tile col-md-6">
+    <!--Iteration of items begins -->
+    <section id="dmenu" class="row"></section>
+    <!-- End of #Main Content -->
+    <footer class="panel-footer">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html"
-                ><div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/B.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹370</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Stuffed Naan</h3>
-            <p class="menu-item-details">
-              Naan is great, but it's even better when it's stuffed with spicy
-              potatoes, green beans and aromatic spices like cumin, garam
-              masala, chili, and turmeric!
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br />
+            Sun-Thurs: 7:15am - 10:00pm<br />
+            Fri: 7:15am - 10:30pm<br />
+            Saturday: 7:15am - 11:30pm
+            <hr class="visible-xs" />
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br />
+            70, N Usman Rd, Postal Colony, <br />Parthasarathi Puram, T. Nagar,
+            <br />Chennai-00017
+            <p>
+              * Delivery area within 5 Kms, with minimum order of Rs.200.
+              Delivery charge may apply.
             </p>
-          </div>
+            <hr class="visible-xs" />
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>
+              "The tastiest sweet shop I've ever been to! And that's saying a
+              lot, since I've been to many!"
+            </p>
+            <p>
+              "Amazing food! Great service! Couldn't ask for more! I'll be back
+              again and again!"
+            </p>
+          </section>
         </div>
-        <hr class="visible-xs" />
+        <div class="text-center">
+          &copy; Copyright Archana Sweets, Chennai, 2022
+        </div>
       </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
+    </footer>
 
-      <div class="menu-item-tile col-md-6">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html"
-                ><div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/C.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹170</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Special Masala Dosa</h3>
-            <p class="menu-item-details">
-              A dosa is a thin batter-based dish originating from South India,
-              made from a fermented batter consisting of lentils and rice.
-            </p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-
-      <div class="menu-item-tile col-md-6">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html"
-                ><div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/D.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹110</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Cafe Latte</h3>
-            <p class="menu-item-details">
-              Freshly medium roasted, ground and blended with chicory, the
-              high-quality coffee unfolds a brew of strength, aroma and flavour.
-            </p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
-
-      <div class="menu-item-tile col-md-6">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html">
-                <div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/E.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹120</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Fresh Lime with ginger</h3>
-            <p class="menu-item-details">
-              Stay cool this summer as Fruit juices and Drinks are available
-              online in bigbasket at the best price.
-            </p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-
-      <div class="menu-item-tile col-md-6">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="menu-item-photo">
-              <a href="cart.html"></a>
-                <div>
-                  <span class="glyphicon glyphicon-shopping-cart"></span></div
-              ></a>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/F.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">₹160</div>
-          </div>
-          <div class="menu-item-description col-sm-7">
-            <h3 class="menu-item-title">Spicy Idly</h3>
-            <p class="menu-item-details">
-              The tasty masala topping is made from onion, capsicum and tomatoes
-              with flavor of pav bhaji masala. Add flavor to the bread.
-            </p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
-      <!-- End of #Main Content -->
-      <footer class="panel-footer">
-        <div class="container">
-          <div class="row">
-            <section id="hours" class="col-sm-4">
-              <span>Hours:</span><br />
-              Sun-Thurs: 7:15am - 10:00pm<br />
-              Fri: 7:15am - 10:30pm<br />
-              Saturday: 7:15am - 11:30pm
-              <hr class="visible-xs" />
-            </section>
-            <section id="address" class="col-sm-4">
-              <span>Address:</span><br />
-              70, N Usman Rd, Postal Colony, <br />Parthasarathi Puram, T.
-              Nagar, <br />Chennai-00017
-              <p>
-                * Delivery area within 5 Kms, with minimum order of Rs.200.
-                Delivery charge may apply.
-              </p>
-              <hr class="visible-xs" />
-            </section>
-            <section id="testimonials" class="col-sm-4">
-              <p>
-                "The tastiest sweet shop I've ever been to! And that's saying a
-                lot, since I've been to many!"
-              </p>
-              <p>
-                "Amazing food! Great service! Couldn't ask for more! I'll be
-                back again and again!"
-              </p>
-            </section>
-          </div>
-          <div class="text-center">
-            &copy; Copyright Archana Sweets, Chennai, 2022
-          </div>
-        </div>
-      </footer>
-    </section>
     <!--Java Script -->
     <!-- jQuery is needed for JS -->
     <script
@@ -335,6 +164,6 @@
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="/data/menu.json"></script>
   </body>
 </html>
