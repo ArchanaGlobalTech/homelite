@@ -559,7 +559,7 @@ h3.menu-item-title {
   }
   .navbar-brand h1 {
     /* Restaurant name */
-    padding-top: 30px;
+    visibility: hidden;
   }
 
   /* End Header */
