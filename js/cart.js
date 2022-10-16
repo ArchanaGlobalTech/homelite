@@ -12,6 +12,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
       "Your shopping cart is empty!";
     document.getElementById("cart-button-title").textContent =
       "Check out our offerings!";
+    var cartButtonLink = document.getElementById("cart-button-link");
+    cartButtonLink.href = "index.html";
   } else {
     document.getElementById("cart-title").textContent = "Shopping cart";
     document.getElementById("cart-button-title").textContent = "Place order";
