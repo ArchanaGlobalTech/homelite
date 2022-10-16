@@ -394,7 +394,7 @@ h3.menu-item-title {
   .btn-primary:active,
   .btn-primary:visited {
     position: relative;
-    margin-left: 45%;
+    margin-left: 35%;
     background-color: #fdc426 !important;
   }
 
@@ -526,7 +526,7 @@ h3.menu-item-title {
   .btn-primary:active,
   .btn-primary:visited {
     position: relative;
-    margin-left: 40%;
+    float: left;
     background-color: #fdc426 !important;
   }
 
@@ -563,6 +563,18 @@ h3.menu-item-title {
   }
 
   /* End Header */
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+  .btn-primary {
+    float: left;
+  }
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;

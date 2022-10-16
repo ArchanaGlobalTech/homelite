@@ -123,7 +123,6 @@ window.addEventListener(
                     </div>
                 </div>
                 
-                <hr class="visible-xs" />
                 </div>`;
       if (i % 2 === 1 && i > 0) {
         document.getElementById(
