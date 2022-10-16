@@ -2,7 +2,8 @@
 //import menu from "./menu.json" assert { type: "json" };
 let menu = new Array();
 let orderList = new Array();
-
+let title = window.location.href.split("=")[1].replace(/[^a-z,A-Z]/g, " ");
+document.getElementById("menu-categories-title").textContent = title;
 function loadJson(callback) {
   var XmlHttpRequest = new XMLHttpRequest();
   XmlHttpRequest.overrideMimeType("application/json");
@@ -31,21 +32,25 @@ window.addEventListener(
     console.log(menu);
     console.log(menu[0] + " and number of items in menu is " + menu.length);
     for (let i = 0; i < menu.length; i++) {
-      document.getElementById("dmenu").innerHTML +=
-        `<div class="menu-item-tile col-md-6">
+      console.log(
+        menu[i].category.replace(/ /g, "") + "==" + title.replace(/ /g, "")
+      );
+      if (menu[i].category.replace(/ /g, "") == title.replace(/ /g, "")) {
+        document.getElementById("dmenu").innerHTML +=
+          `<div class="menu-item-tile col-md-6">
                 <div class="row">
                     <div class="col-sm-5">
                     <div class="menu-item-photo">
                         <span id="cartIndicator_` +
-        i +
-        `"></span>
+          i +
+          `"></span>
                         <img
                         class="img-responsive"
                         width="250"
                         height="150"
                         src="` +
-        menu[i].image +
-        `"
+          menu[i].image +
+          `"
                         alt="Item"
                         />
                     </div>
@@ -53,35 +58,35 @@ window.addEventListener(
                     </div>
                     <div class="menu-item-description col-sm-7">
                     <h3 class="menu-item-title">` +
-        menu[i].name +
-        `</h3>
+          menu[i].name +
+          `</h3>
                     <p class="menu-item-details">
                     ` +
-        menu[i].description +
-        `
+          menu[i].description +
+          `
                     </p>
                     <p class="menu-item-pricing">
                     <span id="packsize">
                     Pack Size :
                     </span>
                     <select name="PackSize" id="PackSize_` +
-        i +
-        `">
+          i +
+          `">
                     <option value="` +
-        Object.keys(menu[i].pricing)[0] +
-        `">` +
-        Object.keys(menu[i].pricing)[0] +
-        `</option>
+          Object.keys(menu[i].pricing)[0] +
+          `">` +
+          Object.keys(menu[i].pricing)[0] +
+          `</option>
                     <option value="` +
-        Object.keys(menu[i].pricing)[1] +
-        `">` +
-        Object.keys(menu[i].pricing)[1] +
-        `</option>
+          Object.keys(menu[i].pricing)[1] +
+          `">` +
+          Object.keys(menu[i].pricing)[1] +
+          `</option>
                     <option value="` +
-        Object.keys(menu[i].pricing)[2] +
-        `">` +
-        Object.keys(menu[i].pricing)[2] +
-        `</option>
+          Object.keys(menu[i].pricing)[2] +
+          `">` +
+          Object.keys(menu[i].pricing)[2] +
+          `</option>
                     
                   </select>
         </p>
@@ -90,8 +95,8 @@ window.addEventListener(
                     Quantity :
                     </span>
                     <select name="quantityselected" id="quantityselected_` +
-        i +
-        `">
+          i +
+          `">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -108,30 +113,34 @@ window.addEventListener(
                     Price :
                     </span>
                     <span id="priceofsweetpacks` +
-        i +
-        `">
+          i +
+          `">
                     ₹ ` +
-        menu[i].pricing["250 gm"] +
-        `
+          menu[i].pricing["250 gm"] +
+          `
                     </span>
                     </p>
                     <button id="placeorder_` +
-        i +
-        `" type="button" class="btn btn-primary">Add to Cart</button>
+          i +
+          `" type="button" class="btn btn-primary">Add to Cart</button>
                 </div>
                     </p>
                     </div>
                 </div>
                 
                 </div>`;
-      if (i % 2 === 1 && i > 0) {
-        document.getElementById(
-          "dmenu"
-        ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
+        if (i % 2 === 1 && i > 0) {
+          document.getElementById(
+            "dmenu"
+          ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
+        }
       }
     }
     document.getElementById("check-out-button").textContent =
       "Proceed to checkout";
+
+    document.getElementById("back-from-checkout-button").textContent =
+      " Back to Categories .";
   },
   { once: true }
 );
