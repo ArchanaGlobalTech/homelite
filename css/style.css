@@ -549,7 +549,7 @@ h3.menu-item-title {
   }
 }
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Super extra small devices Only :-) (e.g., iPhone 8) **********/
 @media (max-width: 477px) {
   /* Header */
   /* Header */
@@ -561,7 +561,13 @@ h3.menu-item-title {
     /* Restaurant name */
     visibility: hidden;
   }
-
+  /* Header */
+  #logo-img {
+    background: url("../img/restaurant-logo_small.jpg") no-repeat;
+    height: 79px;
+    width: 150px;
+    margin: 0px 15px 10px 0;
+  }
   /* End Header */
   .menu-item-photo {
     margin-right: auto;
