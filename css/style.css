@@ -552,18 +552,14 @@ h3.menu-item-title {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
+  /* Header */
+  .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
   .navbar-brand h1 {
     /* Restaurant name */
-    padding-top: 5px;
-    /*font-size: 6vw; */
-  }
-
-  #logo-img {
-    background: url("../img/restaurant-logo_small.jpg") no-repeat;
-
-    height: auto;
-    width: 150;
-    margin: 10px 15px 10px 0;
+    padding-top: 30px;
   }
 
   /* End Header */
