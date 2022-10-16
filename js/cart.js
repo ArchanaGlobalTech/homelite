@@ -1,0 +1,88 @@
+window.addEventListener("DOMContentLoaded", (event) => {
+  console.log("Something got clicked");
+  console.log(event.target.id);
+  // Retrieving data:
+  let text = localStorage.getItem("testJSON");
+  let obj = JSON.parse(text);
+  console.log(obj);
+  let i = 0;
+  let totalPrice = 0;
+  if (obj == null) {
+    document.getElementById("cart-title").textContent =
+      "Your shopping cart is empty!";
+    document.getElementById("cart-button-title").textContent =
+      "Check out our offerings!";
+  } else {
+    document.getElementById("cart-title").textContent = "Shopping cart";
+    document.getElementById("cart-button-title").textContent = "Place order";
+    for (let orderItems = 0; orderItems < obj.length; orderItems++) {
+      document.getElementById("dorders").innerHTML +=
+        `<section class="row">
+    <div class="menu-item-tile col-md-12">
+      
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 col-xxs-12">
+          <div class="shop-item-photo">
+            <div>
+              <a href=""
+                ><span class="glyphicon glyphicon-shopping-cart"></span
+              ></a>
+            </div>
+            <img
+              class="img-responsive"
+              width="250"
+              height="150"
+              src="` +
+        obj[orderItems].image +
+        `"
+              alt="Item"
+            />
+          </div>
+          <div class="menu-item-price">` +
+        obj[orderItems].quantity +
+        `</div>
+        </div>
+        <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
+          <h3 class="menu-item-title">` +
+        obj[orderItems].name +
+        " - " +
+        obj[orderItems].sizeOfPack +
+        `</h3>
+          <p class="menu-item-details">₹` +
+        obj[orderItems].price +
+        `</p>
+        </div>
+      </div>
+      
+    </div>`;
+      if (i % 2 === 1 && i > 0) {
+        document.getElementById(
+          "dorders"
+        ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
+      }
+      i++;
+      totalPrice = totalPrice + obj[orderItems].price;
+    }
+  }
+  document.getElementById("dorders").innerHTML +=
+    `<div class="menu-item-tile col-md-12">
+  <div class="row">
+  <hr class="visible-xs visible-md visible-lg" />
+    <div class="col-sm-5 col-xs-12 col-xxs-12">
+    
+      <div class="shop-item-total">
+        <h3 class="menu-item-title">Subtotal (` +
+    obj.length +
+    ` items)</h3>
+      </div>
+    </div>
+    <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
+      <h3 class="menu-item-title">₹` +
+    totalPrice +
+    `</h3>
+      
+    </div>
+  </div>
+  <hr class="visible-xs visible-md visible-lg" />
+</div>`;
+});

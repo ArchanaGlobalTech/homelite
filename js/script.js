@@ -1,5 +1,6 @@
 `use strict`;
 import menu from "../data/menu.json" assert { type: "json" };
+let orderList = new Array();
 window.addEventListener(
   "DOMContentLoaded",
   (event) => {
@@ -93,7 +94,7 @@ window.addEventListener(
                     </p>
                     <button id="placeorder_` +
         i +
-        `" type="button" class="btn btn-primary">Place Order</button>
+        `" type="button" class="btn btn-primary">Add to Cart</button>
                 </div>
                     </p>
                     </div>
@@ -132,7 +133,7 @@ window.addEventListener("change", (event) => {
 });
 window.addEventListener("click", (event) => {
   console.log("Something got clicked");
-  console.log(event.target.id);
+  let eventMouse = event.target.id.substring(0, 5);
   let myArray = event.target.id.split("_");
   let qtySelected = "quantityselected_" + myArray[1];
   let packSelected = "PackSize_" + myArray[1];
@@ -142,4 +143,37 @@ window.addEventListener("click", (event) => {
   console.log("newqty : " + newqty + " newqpack : " + newqpack);
   let newPrice = newqty * menu[myArray[1]].pricing[newqpack];
   console.log("Item Name : " + menu[myArray[1]].name + " Price : " + newPrice);
+  if (eventMouse == "place") {
+    orderList.push({
+      name: menu[myArray[1]].name,
+      quantity: newqty,
+      sizeOfPack: newqpack,
+      price: newPrice,
+      image: menu[myArray[1]].image,
+    });
+  }
+
+  // Storing data:
+  console.log(orderList);
+  const myJSON = JSON.stringify(orderList);
+  localStorage.setItem("testJSON", myJSON);
 });
+
+function printMenu() {
+  var userList = ["Tom", "John"];
+  var filePath;
+  var isMode;
+  var fileObject;
+
+  function writeToFile(path, binary, object) {
+    print("Writing " + path + " to file...");
+    var output = writeFile(path, mode, object);
+    print("The number of bytes written to file was: " + output);
+    return output;
+  }
+
+  filePath = "../data/order.json";
+  isMode = null;
+  fileObject = userList;
+  writeToFile(filePath, isMode, fileObject);
+}

@@ -340,7 +340,6 @@ h3.menu-item-title {
 .btn-primary:active,
 .btn-primary:visited {
   color: #61122f;
-  text-decoration: dashed;
 }
 /* End Success Page */
 
@@ -560,7 +559,8 @@ h3.menu-item-title {
   }
 
   #logo-img {
-    background: url("../img/restaurant-small.jpg") no-repeat;
+    background: url("../img/restaurant-logo_small.jpg") no-repeat;
+
     height: auto;
     width: 150;
     margin: 10px 15px 10px 0;

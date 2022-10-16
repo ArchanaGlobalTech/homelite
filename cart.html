@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lora&family=Mukta&family=Source+Serif+Pro&family=Tiro+Kannada&display=swap"
       rel="stylesheet"
     />
+    <script type="module" src="js/cart.js"></script>
   </head>
   <body>
     <header>
@@ -107,232 +108,56 @@
       Call us for home delivery
     </div>
     <div id="main-content" class="container"></div>
-    <h2 id="menu-categories-title" class="text-center">Shopping Cart</h2>
+    <h2 id="cart-title" class="text-center"></h2>
+    <hr class="visible-xs visible-md visible-lg" />
+    <!--Iteration of order items begins -->
+    <section id="dorders" class="row"></section>
 
-    <section class="row">
-      <div class="menu-item-tile col-md-12">
-        <hr class="visible-xs visible-md visible-lg" />
+    <a href="success.html">
+      <button
+        id="cart-button-title"
+        type="button"
+        class="btn btn-primary"
+      ></button>
+    </a>
+    <!-- End of #Main Content -->
+    <footer class="panel-footer">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/A.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 2</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Spicy Idly</h3>
-            <p class="menu-item-details">Price: ₹110</p>
-          </div>
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br />
+            Sun-Thurs: 7:15am - 10:00pm<br />
+            Fri: 7:15am - 10:30pm<br />
+            Saturday: 7:15am - 11:30pm
+            <hr class="visible-xs" />
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br />
+            70, N Usman Rd, Postal Colony, <br />Parthasarathi Puram, T. Nagar,
+            Chennai-00017
+            <p>
+              * Delivery area within 5 Kms, with minimum order of Rs.200.
+              Delivery charge may apply.
+            </p>
+            <hr class="visible-xs" />
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>
+              "The tastiest sweet shop I've ever been to! And that's saying a
+              lot, since I've been to many!"
+            </p>
+            <p>
+              "Amazing food! Great service! Couldn't ask for more! I'll be back
+              again and again!"
+            </p>
+          </section>
         </div>
-        <hr class="visible-xs" />
+        <div class="text-center">
+          &copy; Copyright Archana Sweets, Chennai, 2022
+        </div>
       </div>
+    </footer>
 
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/B.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 1</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Stuffed Naan</h3>
-            <p class="menu-item-details">Price: ₹370</p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
-
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/C.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 1</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Special Masala Dosa</h3>
-            <p class="menu-item-details">Price: ₹170</p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/D.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 1</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Cafe Latte</h3>
-            <p class="menu-item-details">Price: ₹110</p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
-
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/E.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 3</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Fresh Lime with ginger</h3>
-            <p class="menu-item-details">Price: ₹120</p>
-          </div>
-        </div>
-        <hr class="visible-xs" />
-      </div>
-
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-photo">
-              <div>
-                <a href=""
-                  ><span class="glyphicon glyphicon-shopping-cart"></span
-                ></a>
-              </div>
-              <img
-                class="img-responsive"
-                width="250"
-                height="150"
-                src="img/menu/B/F.jpg"
-                alt="Item"
-              />
-            </div>
-            <div class="menu-item-price">Qty: 1</div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">Spicy Idly</h3>
-            <p class="menu-item-details">Price: ₹160</p>
-          </div>
-        </div>
-        <hr class="visible-xs visible-md visible-lg" />
-      </div>
-      <div class="menu-item-tile col-md-12">
-        <div class="row">
-          <div class="col-sm-5 col-xs-12 col-xxs-12">
-            <div class="shop-item-total">
-              <h3 class="menu-item-title">Subtotal (9 items)</h3>
-            </div>
-          </div>
-          <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
-            <h3 class="menu-item-title">₹1,390</h3>
-            <p class="menu-item-details">Delivery: ₹160</p>
-          </div>
-        </div>
-        <hr class="visible-xs visible-md visible-lg" />
-      </div>
-      <!-- Add after every 2nd menu-item-tile -->
-      <div class="clearfix visible-lg-block visible-md-block"></div>
-      <a href="success.html">
-        <button type="button" class="btn btn-primary">Place order</button>
-      </a>
-      <!-- End of #Main Content -->
-      <footer class="panel-footer">
-        <div class="container">
-          <div class="row">
-            <section id="hours" class="col-sm-4">
-              <span>Hours:</span><br />
-              Sun-Thurs: 7:15am - 10:00pm<br />
-              Fri: 7:15am - 10:30pm<br />
-              Saturday: 7:15am - 11:30pm
-              <hr class="visible-xs" />
-            </section>
-            <section id="address" class="col-sm-4">
-              <span>Address:</span><br />
-              70, N Usman Rd, Postal Colony, <br />Parthasarathi Puram, T.
-              Nagar, Chennai-00017
-              <p>
-                * Delivery area within 5 Kms, with minimum order of Rs.200.
-                Delivery charge may apply.
-              </p>
-              <hr class="visible-xs" />
-            </section>
-            <section id="testimonials" class="col-sm-4">
-              <p>
-                "The tastiest sweet shop I've ever been to! And that's saying a
-                lot, since I've been to many!"
-              </p>
-              <p>
-                "Amazing food! Great service! Couldn't ask for more! I'll be
-                back again and again!"
-              </p>
-            </section>
-          </div>
-          <div class="text-center">
-            &copy; Copyright Archana Sweets, Chennai, 2022
-          </div>
-        </div>
-      </footer>
-    </section>
     <!--Java Script -->
     <!-- jQuery is needed for JS -->
     <script
@@ -346,6 +171,5 @@
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
   </body>
 </html>
