@@ -2,6 +2,7 @@
 //import menu from "./menu.json" assert { type: "json" };
 let menu = new Array();
 let orderList = new Array();
+
 function loadJson(callback) {
   var XmlHttpRequest = new XMLHttpRequest();
   XmlHttpRequest.overrideMimeType("application/json");
@@ -35,11 +36,9 @@ window.addEventListener(
                 <div class="row">
                     <div class="col-sm-5">
                     <div class="menu-item-photo">
-                        <a href="cart.html">
-
-                        <div>
-                            <span class="glyphicon glyphicon-shopping-cart"></span></div
-                        ></a>
+                        <span id="cartIndicator_` +
+        i +
+        `"></span>
                         <img
                         class="img-responsive"
                         width="250"
@@ -132,6 +131,8 @@ window.addEventListener(
         ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
       }
     }
+    document.getElementById("check-out-button").textContent =
+      "Proceed to checkout";
   },
   { once: true }
 );
@@ -175,6 +176,13 @@ window.addEventListener("click", (event) => {
       price: newPrice,
       image: menu[myArray[1]].image,
     });
+    document.getElementById(
+      "cartIndicator_" + myArray[1]
+    ).innerHTML = `<a href="cart.html">
+
+    <div>
+        <span class="glyphicon glyphicon-shopping-cart"></span></div
+    ></a>`;
   }
 
   // Storing data:
