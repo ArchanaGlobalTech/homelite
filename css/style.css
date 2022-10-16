@@ -527,7 +527,7 @@ h3.menu-item-title {
   .btn-primary:visited {
     position: relative;
     float: left;
-    background-color: #fdc426 !important;
+    background-color: #fdc426;
   }
 
   #nvbr01 h1 {
@@ -578,9 +578,7 @@ h3.menu-item-title {
   .menu-item-description {
     text-align: center;
   }
-  .btn-primary {
-    float: left;
-  }
+
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
@@ -642,5 +640,31 @@ h3.menu-item-title {
     padding: 0;
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
+  }
+
+  #check-out-division {
+    height: 50px;
+  }
+
+  #check-out-division .btn-primary {
+    margin-left: 30%;
+  }
+  #place-order-division .btn-primary {
+    margin-left: 37%;
+  }
+
+  #success-division .btn-primary {
+    margin-left: 43%;
+  }
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited {
+    position: relative;
+    background-color: #fdc426;
+  }
+
+  hr {
+    width: 60%;
   }
 }
