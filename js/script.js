@@ -1,5 +1,5 @@
 `use strict`;
-import menu from "../data/menu.json" assert { type: "json" };
+import menu from "./menu.json" assert { type: "json" };
 let orderList = new Array();
 window.addEventListener(
   "DOMContentLoaded",
