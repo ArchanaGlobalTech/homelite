@@ -1,9 +1,33 @@
 `use strict`;
-import menu from "./menu.json" assert { type: "json" };
+//import menu from "./menu.json" assert { type: "json" };
+let menu = new Array();
 let orderList = new Array();
+function loadJson(callback) {
+  var XmlHttpRequest = new XMLHttpRequest();
+  XmlHttpRequest.overrideMimeType("application/json");
+  XmlHttpRequest.open("GET", "./data/menu.json", true);
+  XmlHttpRequest.onreadystatechange = function () {
+    if (XmlHttpRequest.readyState == 4 && XmlHttpRequest.status == "200") {
+      // .open will NOT return a value
+      // but simply returns undefined in async mode so use a callback
+      callback(XmlHttpRequest.responseText);
+    }
+  };
+  XmlHttpRequest.send(null);
+}
+
+loadJson(
+  function (response) {
+    menu = JSON.parse(response);
+    console.log("Got the Json file");
+    console.log(menu);
+    /*
+});
 window.addEventListener(
   "DOMContentLoaded",
   (event) => {
+*/
+    console.log(menu);
     console.log(menu[0] + " and number of items in menu is " + menu.length);
     for (let i = 0; i < menu.length; i++) {
       document.getElementById("dmenu").innerHTML +=
