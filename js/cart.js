@@ -63,7 +63,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
         ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
       }
       i++;
-      totalPrice = totalPrice + obj[orderItems].price;
+      totalPrice =
+        totalPrice + obj[orderItems].price * obj[orderItems].quantity;
     }
   }
   document.getElementById("dorders").innerHTML +=

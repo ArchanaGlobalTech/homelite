@@ -178,13 +178,25 @@ window.addEventListener("click", (event) => {
   let newPrice = newqty * menu[myArray[1]].pricing[newqpack];
   console.log("Item Name : " + menu[myArray[1]].name + " Price : " + newPrice);
   if (eventMouse == "place") {
-    orderList.push({
-      name: menu[myArray[1]].name,
-      quantity: newqty,
-      sizeOfPack: newqpack,
-      price: newPrice,
-      image: menu[myArray[1]].image,
-    });
+    let newqpack = document.getElementById(packSelected).value;
+    let objFound = orderList.findIndex(
+      (o) => o.id === menu[myArray[1]].id && o.sizeOfPack === newqpack
+    );
+    console.log("objFound : " + objFound);
+    if (objFound == -1) {
+      orderList.push({
+        id: menu[myArray[1]].id,
+        name: menu[myArray[1]].name,
+        quantity: Number(newqty),
+        sizeOfPack: newqpack,
+        price: newPrice,
+        image: menu[myArray[1]].image,
+      });
+    } else {
+      console.log("objFound position: " + objFound);
+      orderList[objFound].quantity += Number(newqty);
+      orderList[objFound].price += newPrice;
+    }
     document.getElementById(
       "cartIndicator_" + myArray[1]
     ).innerHTML = `<a href="cart.html">
