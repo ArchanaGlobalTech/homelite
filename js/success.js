@@ -1,4 +1,7 @@
+`use strict`;
 let numberOfItemsInCart = 0;
+let text = localStorage.getItem("testJSON");
+let obj = JSON.parse(text);
 if (obj == null) {
   numberOfItemsInCart = 0;
 } else {
