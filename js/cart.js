@@ -97,3 +97,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   <hr class="visible-xs visible-md visible-lg" />
 </div>`;
 });
+
+function clearCache() {
+  localStorage.clear();
+}
