@@ -385,7 +385,7 @@
     "id": "48",
     "name": "Sweet Samosa",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
-    "category": "Generic",
+    "category": "Specials",
     "image": "img/menu/B/K.jpg",
     "description": "An all time favorite spring roll!"
   },
@@ -393,7 +393,7 @@
     "id": "49",
     "name": "Milk Pheni",
     "pricing": { "250 gm": 213, "500 gm": 425, "1 kg": 850 },
-    "category": "Generic",
+    "category": "Specials",
     "image": "img/menu/B/K.jpg",
     "description": "Milk Pheni, fried in ghee and tastes like heaven whn served with hot or chill milk!"
   },
@@ -481,7 +481,7 @@
     "id": "60",
     "name": "Kashmir Cake",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
-    "category": "Generic",
+    "category": "Specials",
     "image": "img/menu/B/K.jpg",
     "description": "Kashmir Cake, for all special occasions!"
   },
@@ -785,16 +785,16 @@
     "id": "97",
     "name": "Rasmalai",
     "pricing": { "250 gm": 200, "500 gm": 400, "1 kg": 800 },
-    "category": "Generic",
-    "image": "img/menu/B/K.jpg",
+    "category": "Specials",
+    "image": "img/menu/B/N.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
     "id": "98",
     "name": "Basundhi",
     "pricing": { "250 gm": 200, "500 gm": 400, "1 kg": 800 },
-    "category": "Generic",
-    "image": "img/menu/B/K.jpg",
+    "category": "Specials",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   }
 ]

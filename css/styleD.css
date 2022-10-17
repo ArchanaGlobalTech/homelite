@@ -155,7 +155,7 @@ body {
 #menu-tile:hover,
 #specials-tile:hover,
 #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 15px 1px #cccccc;
 }
 
 #menu-tile {
