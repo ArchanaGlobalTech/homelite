@@ -2,6 +2,17 @@
 //import menu from "./menu.json" assert { type: "json" };
 let menu = new Array();
 let orderList = new Array();
+let numberOfItemsInCart = 0;
+let text = localStorage.getItem("testJSON");
+let obj = JSON.parse(text);
+if (obj == null) {
+  numberOfItemsInCart = 0;
+} else {
+  console.log("obj.length : " + obj.length);
+  numberOfItemsInCart = obj.length;
+}
+document.getElementById("nav-no-of-items-cart").textContent =
+  "(" + numberOfItemsInCart + ")";
 let title = window.location.href.split("=")[1].replace(/[^a-z,A-Z]/g, " ");
 document.getElementById("menu-categories-title").textContent = title;
 function loadJson(callback) {

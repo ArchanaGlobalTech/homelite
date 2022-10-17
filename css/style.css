@@ -80,7 +80,9 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
-
+#nav-no-of-items-cart {
+  font-size: 0.5em;
+}
 #phone {
   margin-top: 5px;
 }

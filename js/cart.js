@@ -4,7 +4,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Retrieving data:
   let text = localStorage.getItem("testJSON");
   let obj = JSON.parse(text);
-  console.log(obj);
+  let numberOfItemsInCart = 0;
+  if (obj == null) {
+    numberOfItemsInCart = 0;
+  } else {
+    console.log("obj.length : " + obj.length);
+    numberOfItemsInCart = obj.length;
+  }
+  document.getElementById("nav-no-of-items-cart").textContent =
+    "(" + numberOfItemsInCart + ")";
   let i = 0;
   let totalPrice = 0;
   if (obj == null) {
@@ -27,7 +35,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
           <div class="shop-item-photo">
             <div>
               <a href=""
-                ><span class="glyphicon glyphicon-shopping-cart"></span
+                ><span id="nav-no-of-items-cart" class="glyphicon glyphicon-shopping-cart"></span
               ></a>
             </div>
             <img
