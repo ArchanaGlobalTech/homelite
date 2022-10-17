@@ -796,5 +796,373 @@
     "category": "Specials",
     "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
+  },
+  {
+    "id": "99",
+    "name": "Cornflakes",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Cornflakes mixture."
+  },
+  {
+    "id": "100",
+    "name": "Aval",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Aval mixture."
+  },
+  {
+    "id": "101",
+    "name": "Dhall",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Dhall mixture."
+  },
+  {
+    "id": "102",
+    "name": "Navadhaniyam",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Navadhaniyam mixture."
+  },
+  {
+    "id": "103",
+    "name": "Mota",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Mota mixture."
+  },
+  {
+    "id": "104",
+    "name": "Potato Sweet",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Potato Sweet mixture."
+  },
+  {
+    "id": "105",
+    "name": "Madurai",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Madurai mixture."
+  },
+  {
+    "id": "106",
+    "name": "Chennai",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Chennai mixture."
+  },
+  {
+    "id": "107",
+    "name": "Biscuit",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Biscuit mixture."
+  },
+  {
+    "id": "108",
+    "name": "Special",
+    "pricing": { "200 gm": 160, "500 gm": 400, "1 kg": 800 },
+    "category": "Mixtures",
+    "image": "img/menu/B/A.jpg",
+    "description": "Special mixture."
+  },
+  {
+    "id": "109",
+    "name": "Andra",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Andra Murukku."
+  },
+  {
+    "id": "110",
+    "name": "Ghee",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Ghee Murukku."
+  },
+  {
+    "id": "111",
+    "name": "Butter",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Butter Murukku."
+  },
+  {
+    "id": "112",
+    "name": "Garlic",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Garlic Murukku."
+  },
+  {
+    "id": "113",
+    "name": "Theankuzhal",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Theankuzhal Murukku."
+  },
+  {
+    "id": "114",
+    "name": "Manaparai",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Manaparai Murukku."
+  },
+  {
+    "id": "115",
+    "name": "Achu",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Achu Murukku."
+  },
+  {
+    "id": "116",
+    "name": "Kai",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Murukku",
+    "image": "img/menu/B/A.jpg",
+    "description": "Kai Murukku."
+  },
+  {
+    "id": "117",
+    "name": "Cashew",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Pakora",
+    "image": "img/menu/B/A.jpg",
+    "description": "Cashew Pakora."
+  },
+  {
+    "id": "118",
+    "name": "Onion",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Pakora",
+    "image": "img/menu/B/A.jpg",
+    "description": "Onion Pakora."
+  },
+  {
+    "id": "119",
+    "name": "Ribbon",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Pakora",
+    "image": "img/menu/B/A.jpg",
+    "description": "Ribbon Pakora."
+  },
+  {
+    "id": "120",
+    "name": "Khara",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Sev",
+    "image": "img/menu/B/A.jpg",
+    "description": "Kara Sev."
+  },
+  {
+    "id": "121",
+    "name": "Pepper",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Sev",
+    "image": "img/menu/B/A.jpg",
+    "description": "Pepper Sev."
+  },
+  {
+    "id": "122",
+    "name": "Mota",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Sev",
+    "image": "img/menu/B/A.jpg",
+    "description": "Mota Sev."
+  },
+  {
+    "id": "123",
+    "name": "Potato",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Chips",
+    "image": "img/menu/B/A.jpg",
+    "description": "Potato Chips."
+  },
+  {
+    "id": "124",
+    "name": "Banana",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Chips",
+    "image": "img/menu/B/A.jpg",
+    "description": "Banana Chips."
+  },
+  {
+    "id": "125",
+    "name": "Nendram",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Chips",
+    "image": "img/menu/B/A.jpg",
+    "description": "Nendram Chips."
+  },
+  {
+    "id": "126",
+    "name": "BitterGuord",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Chips",
+    "image": "img/menu/B/A.jpg",
+    "description": "BitterGuord Chips."
+  },
+  {
+    "id": "127",
+    "name": "Pepper",
+    "pricing": { "200 gm": 300, "500 gm": 750, "1 kg": 1500 },
+    "category": "Cashews",
+    "image": "img/menu/B/A.jpg",
+    "description": "Pepper Cashews."
+  },
+  {
+    "id": "128",
+    "name": "Salted",
+    "pricing": { "200 gm": 300, "500 gm": 750, "1 kg": 1500 },
+    "category": "Cashews",
+    "image": "img/menu/B/A.jpg",
+    "description": "Salted Cashews."
+  },
+  {
+    "id": "129",
+    "name": "Ghee",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Peanuts",
+    "image": "img/menu/B/A.jpg",
+    "description": "Ghee Peanuts."
+  },
+  {
+    "id": "130",
+    "name": "Masala",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Peanuts",
+    "image": "img/menu/B/A.jpg",
+    "description": "Masala Peanuts."
+  },
+  {
+    "id": "142",
+    "name": "Kharabhoondhi",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Kharabhoondhi."
+  },
+  {
+    "id": "143",
+    "name": "Ompodi",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Ompodi."
+  },
+  {
+    "id": "144",
+    "name": "Khara Karela",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Khara Karela."
+  },
+  {
+    "id": "131",
+    "name": "Masala Puffed Rice",
+    "pricing": { "200 gm": 100, "500 gm": 250, "1 kg": 500 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Masala Puffed Rice."
+  },
+  {
+    "id": "132",
+    "name": "Mini Thattai",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Mini Thattai."
+  },
+  {
+    "id": "133",
+    "name": "Sweet",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Seedai",
+    "image": "img/menu/B/A.jpg",
+    "description": "Sweet Seedai."
+  },
+  {
+    "id": "134",
+    "name": "Salt",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Seedai",
+    "image": "img/menu/B/A.jpg",
+    "description": "Salt Seedai."
+  },
+  {
+    "id": "135",
+    "name": "Salt Biscuits",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Traditional",
+    "image": "img/menu/B/A.jpg",
+    "description": "Mini Thattai."
+  },
+  {
+    "id": "136",
+    "name": "Gram",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Roasted Dhall",
+    "image": "img/menu/B/A.jpg",
+    "description": "Gram Roasted Dhall."
+  },
+  {
+    "id": "137",
+    "name": "Moong",
+    "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
+    "category": "Roasted Dhall",
+    "image": "img/menu/B/A.jpg",
+    "description": "Moong Roasted Dhall."
+  },
+  {
+    "id": "138",
+    "name": "Salt",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Roasted Chenna",
+    "image": "img/menu/B/A.jpg",
+    "description": "Salt Roasted Chenna."
+  },
+  {
+    "id": "139",
+    "name": "Spice",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Roasted Chenna",
+    "image": "img/menu/B/A.jpg",
+    "description": "Spice Roasted Chenna."
+  },
+  {
+    "id": "140",
+    "name": "Salt",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Potato Sticks",
+    "image": "img/menu/B/A.jpg",
+    "description": "Salt Potato Sticks."
+  },
+  {
+    "id": "141",
+    "name": "Spice",
+    "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
+    "category": "Potato Sticks",
+    "image": "img/menu/B/A.jpg",
+    "description": "Spice Potato Sticks."
   }
 ]

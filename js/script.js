@@ -42,7 +42,11 @@ window.addEventListener(
 */
     console.log(menu);
     console.log(menu[0] + " and number of items in menu is " + menu.length);
+    let packSizeGm = "250 gm";
     for (let i = 0; i < menu.length; i++) {
+      if (i > 97) {
+        packSizeGm = "200 gm";
+      }
       console.log(
         menu[i].category.replace(/ /g, "") + "==" + title.replace(/ /g, "")
       );
@@ -127,7 +131,7 @@ window.addEventListener(
           i +
           `">
                     ₹ ` +
-          menu[i].pricing["250 gm"] +
+          menu[i].pricing[packSizeGm] +
           `
                     </span>
                     </p>
