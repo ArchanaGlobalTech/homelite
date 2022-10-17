@@ -345,7 +345,8 @@ h3.menu-item-title {
   display: inline-block;
   width: 150px;
   text-align: left;
-  border: 1px solid #61122f;
+  /*newlook*/
+  border: 1px solid white;
 }
 
 [id^="quantityselected"],
