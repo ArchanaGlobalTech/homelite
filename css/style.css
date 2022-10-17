@@ -1,7 +1,9 @@
 body {
   font-size: 16px;
-  color: white;
-  background-color: #61122f;
+  /*newlook*/
+  color: #61122f;
+  /*newlook*/
+  background-color: white;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -119,6 +121,8 @@ body {
 }
 .panel-footer div.row {
   margin-bottom: 35px;
+  /*newlook*/
+  color: white;
 }
 #hours,
 #address {
@@ -169,6 +173,13 @@ body {
 #bg-jumbotron {
   background: url("../img/jumbotran_1200.jpg") no-repeat;
   background-position: center;
+}
+
+/*new look*/
+#jumbotran-main-text,
+#jumbotran-sub-text {
+  color: white;
+  padding-top: 80px;
 }
 #menu-tile span,
 #specials-tile span,

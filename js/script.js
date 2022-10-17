@@ -141,11 +141,6 @@ window.addEventListener(
                 </div>
                 
                 </div>`;
-        if (i % 2 === 1 && i > 0) {
-          document.getElementById(
-            "dmenu"
-          ).innerHTML += `<div class="clearfix visible-lg-block visible-md-block"></div>`;
-        }
       }
     }
     document.getElementById("check-out-button").textContent =
