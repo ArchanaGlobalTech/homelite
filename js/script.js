@@ -227,6 +227,17 @@ window.addEventListener("click", (event) => {
   console.log(orderList);
   const myJSON = JSON.stringify(orderList);
   localStorage.setItem("testJSON", myJSON);
+
+  let text = localStorage.getItem("testJSON");
+  let obj = JSON.parse(text);
+  if (obj == null) {
+    numberOfItemsInCart = 0;
+  } else {
+    console.log("obj.length : " + obj.length);
+    numberOfItemsInCart = obj.length;
+  }
+  document.getElementById("nav-no-of-items-cart").textContent =
+    "(" + numberOfItemsInCart + ")";
 });
 
 function printMenu() {
