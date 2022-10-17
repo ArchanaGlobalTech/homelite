@@ -171,6 +171,7 @@ window.addEventListener("click", (event) => {
   let myArray = event.target.id.split("_");
   let qtySelected = "quantityselected_" + myArray[1];
   let packSelected = "PackSize_" + myArray[1];
+  let numberInBasket;
   console.log(myArray[1]);
   let newqty = document.getElementById(qtySelected).value;
   let newqpack = document.getElementById(packSelected).value;
@@ -184,6 +185,7 @@ window.addEventListener("click", (event) => {
     );
     console.log("objFound : " + objFound);
     if (objFound == -1) {
+      numberInBasket = " - " + Number(newqty);
       orderList.push({
         id: menu[myArray[1]].id,
         name: menu[myArray[1]].name,
@@ -196,16 +198,20 @@ window.addEventListener("click", (event) => {
       console.log("objFound position: " + objFound);
       orderList[objFound].quantity += Number(newqty);
       orderList[objFound].price += newPrice;
+
+      numberInBasket = " - " + orderList[objFound].quantity;
     }
-    document.getElementById(
-      "cartIndicator_" + myArray[1]
-    ).innerHTML = `<a href="cart.html">
+    document.getElementById("cartIndicator_" + myArray[1]).innerHTML =
+      `<a href="cart.html">
 
     <div>
-        <span class="glyphicon glyphicon-shopping-cart"></span></div
+        <span id="number-of-items-incart` +
+      myArray[1] +
+      `" class="glyphicon glyphicon-shopping-cart"></span></div
     ></a>`;
   }
-
+  document.getElementById("number-of-items-incart" + myArray[1]).textContent =
+    numberInBasket;
   // Storing data:
   console.log(orderList);
   const myJSON = JSON.stringify(orderList);
