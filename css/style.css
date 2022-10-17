@@ -554,22 +554,24 @@ h3.menu-item-title {
     margin-left: auto;
   }
   #check-out-division,
-  #back-from-checkout {
+  #back-from-checkout,
+  #place-order-division {
     height: 50px;
     width: 100%;
     align-items: center;
   }
 
   #check-out-division .btn-primary,
-  #back-from-checkout .btn-primary {
+  #back-from-checkout .btn-primary,
+  #place-order-division .btn-primary {
     margin-left: 30%;
   }
   #place-order-division .btn-primary {
-    margin-left: auto;
+    margin-left: 30%;
   }
 
   #success-division .btn-primary {
-    margin-left: auto;
+    margin-left: 30%;
   }
 }
 
@@ -678,11 +680,11 @@ h3.menu-item-title {
     margin-left: 26%;
   }
   #place-order-division .btn-primary {
-    margin-left: auto;
+    margin-left: 28%;
   }
 
   #success-division .btn-primary {
-    margin-left: 43%;
+    margin-left: 26%;
   }
 
   #add-to-cart-division .btn-primary {
