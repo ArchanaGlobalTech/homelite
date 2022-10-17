@@ -39,6 +39,7 @@ body {
 
 #jumbotran-main-text hr {
   width: 40%;
+  color: #951c49;
 }
 .navbar-brand h1 {
   /*Restaurant Name*/
@@ -252,6 +253,7 @@ body {
 }
 .menu-item-tile hr {
   width: 80%;
+  color: #951c49;
 }
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
@@ -328,9 +330,6 @@ h3.menu-item-title {
   color: white;
 }
 
-#PackSize {
-  color: #61122f;
-}
 /* END SINGLE CATEGORY PAGE */
 /* Start Success Page */
 #success-title {
@@ -340,9 +339,9 @@ h3.menu-item-title {
 
 #quantityofsweetpacks,
 #packsize,
-#pricelabelofsweetpacks,
-#priceofsweetpacks {
+#pricelabelofsweetpacks {
   display: inline-block;
+  color: #61122f;
   width: 150px;
   text-align: left;
   /*newlook*/
@@ -350,8 +349,14 @@ h3.menu-item-title {
 }
 
 [id^="quantityselected"],
-[id^="PackSize"] {
+[id^="PackSize"],
+[id^="priceofsweetpacks"] {
   color: #61122f;
+  width: 80px;
+}
+
+[id^="priceofsweetpacks"] {
+  text-align: right;
 }
 .btn-primary,
 .btn-primary:hover,
@@ -467,6 +472,7 @@ h3.menu-item-title {
   }
   .panel-footer section hr {
     width: 50%;
+    color: #951c49;
   }
   /* End Footer */
   .navbar-brand h1 {
@@ -630,6 +636,7 @@ h3.menu-item-title {
   }
   .panel-footer section hr {
     width: 50%;
+    color: #951c49;
   }
   /* End Footer */
   /* Home page */
@@ -715,5 +722,6 @@ h3.menu-item-title {
 
   hr {
     width: 60%;
+    color: #951c49;
   }
 }
