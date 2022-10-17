@@ -120,9 +120,10 @@ window.addEventListener(
           `
                     </span>
                     </p>
+                    <div id="add-to-cart-division">
                     <button id="placeorder_` +
           i +
-          `" type="button" class="btn btn-primary">Add to Cart</button>
+          `" type="button" class="btn btn-primary">Add to Cart</button></div>
                 </div>
                     </p>
                     </div>

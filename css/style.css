@@ -105,6 +105,8 @@ body {
   margin-top: -50px;
 }
 /* END HEADER */
+/* Main Content Begins*/
+/* Main Content Ends*/
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
@@ -199,6 +201,7 @@ body {
   position: relative;
   margin-left: 45%;
   background-color: #fdc426 !important;
+  width: 200px;
 }
 /* MENU CATEGORIES PAGE */
 .category-tile {
@@ -526,7 +529,6 @@ h3.menu-item-title {
   .btn-primary:active,
   .btn-primary:visited {
     position: relative;
-    float: left;
     background-color: #fdc426;
   }
 
@@ -546,6 +548,28 @@ h3.menu-item-title {
   #success-title {
     font-size: 1em;
     margin-bottom: 10px;
+  }
+
+  #add-to-cart-division .btn-primary {
+    margin-left: auto;
+  }
+  #check-out-division,
+  #back-from-checkout {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+  }
+
+  #check-out-division .btn-primary,
+  #back-from-checkout .btn-primary {
+    margin-left: 30%;
+  }
+  #place-order-division .btn-primary {
+    margin-left: auto;
+  }
+
+  #success-division .btn-primary {
+    margin-left: auto;
   }
 }
 
@@ -642,19 +666,27 @@ h3.menu-item-title {
     border: 2px solid #3f0c1f;
   }
 
-  #check-out-division {
+  #check-out-division,
+  #back-from-checkout {
     height: 50px;
+    width: 100%;
+    align-items: center;
   }
 
-  #check-out-division .btn-primary {
-    margin-left: 30%;
+  #check-out-division .btn-primary,
+  #back-from-checkout .btn-primary {
+    margin-left: 26%;
   }
   #place-order-division .btn-primary {
-    margin-left: 37%;
+    margin-left: auto;
   }
 
   #success-division .btn-primary {
     margin-left: 43%;
+  }
+
+  #add-to-cart-division .btn-primary {
+    margin-left: auto;
   }
   .btn-primary,
   .btn-primary:hover,
