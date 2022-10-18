@@ -340,6 +340,7 @@ h3.menu-item-title {
 /* Start Success Page */
 #success-title {
   margin-bottom: 50px;
+  margin-top: 50px;
   font-family: "Courier New", Courier, monospace;
 }
 
