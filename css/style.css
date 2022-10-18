@@ -7,9 +7,9 @@ body {
   background-color: white;
   font-family: "Oxygen", sans-serif;
 }
-a {
-  padding: 0;
-  margin: 0;
+#a-element-behind-logo {
+  display: inline-block;
+  width: 200px;
 }
 /**Header**/
 #header-nav {
@@ -478,6 +478,12 @@ h3.menu-item-title {
     padding-top: 10px;
     height: 80px;
   }
+
+  #a-element-behind-logo {
+    display: inline-block;
+    width: 34%;
+  }
+
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
@@ -621,6 +627,12 @@ h3.menu-item-title {
     padding-top: 0px;
     height: 80px;
   }
+
+  #a-element-behind-logo {
+    display: inline-block;
+    width: 37%;
+  }
+
   .navbar-brand h1 {
     /* Restaurant name */
     /*Restaurant Name*/
@@ -636,9 +648,9 @@ h3.menu-item-title {
   }
   /* Header */
   #logo-img {
-    background: url("../img/restaurant-logo_small.jpg") no-repeat;
+    background: url("../img/restaurant-logo_medium.jpg") no-repeat;
     height: 79px;
-    width: 100px;
+    width: 134px;
     margin: 0px 15px 10px 0;
   }
   /* End Header */
