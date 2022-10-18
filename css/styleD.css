@@ -245,6 +245,11 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
+
+#menu-categories-title,
+#cart-title {
+  margin-top: 130px;
+}
 /* END MENU CATEGORIES PAGE */
 
 /* SINGLE CATEGORY PAGE */
