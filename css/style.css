@@ -671,7 +671,7 @@ h3.menu-item-title {
   /* Header */
   #logo-img {
     background: url("../img/restaurant-logo_medium.jpg") no-repeat;
-    height: 79px;
+    height: 95px;
     width: 134px;
     margin: 0px 15px 10px 0;
   }
@@ -716,7 +716,7 @@ h3.menu-item-title {
   }
 
   #complete-body-under-nav {
-    height: 100px;
+    height: 110px;
   }
 
   #call-btn > a {
