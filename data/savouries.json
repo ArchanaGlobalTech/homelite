@@ -259,7 +259,7 @@
     "id": "28",
     "name": "Kharabhoondhi",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Kharabhoondhi."
   },
@@ -267,7 +267,7 @@
     "id": "29",
     "name": "Ompodi",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Ompodi."
   },
@@ -275,7 +275,7 @@
     "id": "30",
     "name": "Khara Karela",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Khara Karela."
   },
@@ -283,7 +283,7 @@
     "id": "31",
     "name": "Masala Puffed Rice",
     "pricing": { "200 gm": 100, "500 gm": 250, "1 kg": 500 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Masala Puffed Rice."
   },
@@ -291,7 +291,7 @@
     "id": "32",
     "name": "Mini Thattai",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Mini Thattai."
   },
@@ -315,7 +315,7 @@
     "id": "35",
     "name": "Salt Biscuits",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
-    "category": "Generic",
+    "category": "Traditional"
     "image": "img/menu/B/A.jpg",
     "description": "Mini Thattai."
   },

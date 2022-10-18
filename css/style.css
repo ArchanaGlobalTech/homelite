@@ -274,8 +274,8 @@ body {
 }
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
-  text-align: right;
-  margin-top: -15px;
+  text-align: center;
+  margin-top: 0px;
   margin-right: -15px;
 }
 .menu-item-tile .menu-item-price span {
@@ -584,7 +584,7 @@ h3.menu-item-title {
     margin-right: auto;
   }
   .menu-item-tile .menu-item-price {
-    text-align: center;
+    text-align: right;
   }
   .menu-item-description {
     text-align: center;

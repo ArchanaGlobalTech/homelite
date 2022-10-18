@@ -31,8 +31,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     <div class="menu-item-tile col-md-12">
       
       <div class="row">
-        <div class="col-sm-5 col-xs-12 col-xxs-12">
-          <div class="shop-item-photo">
+        <div class="col-lg-3 col-sm-4 col-xs-6 col-xxs-12">
+          <div class="shop-item-photo hidden-xs hidden-xxs">
             <div>
               <a href=""
                 ><span id="nav-no-of-items-cart" class="glyphicon glyphicon-shopping-cart"></span
@@ -48,23 +48,26 @@ window.addEventListener("DOMContentLoaded", (event) => {
               alt="Item"
             />
           </div>
-          <div class="menu-item-price">` +
-        obj[orderItems].quantity +
-        `</div>
-        </div>
-        <div class="menu-item-description col-sm-7 col-xs-12 col-xxs-12">
+          </div>
+         
+        
+        <div class="menu-item-description col-lg-5 col-sm-4 col-xs-12 col-xxs-12">
           <h3 class="menu-item-title">` +
         obj[orderItems].name +
         " - " +
         obj[orderItems].sizeOfPack +
-        `</h3>
-          <p class="menu-item-details">₹` +
-        obj[orderItems].price +
-        `</p>
+        `
+          <span class="menu-item-details"> - ` +
+        obj[orderItems].quantity +
+        `</span></h3>
         </div>
+        <div class="menu-item-price col-lg-3 col-sm-4 col-xs-6 col-xxs-12">₹` +
+        obj[orderItems].price +
+        `</div>
       </div>
       
-    </div>`;
+    </div>
+    </section>`;
       if (i % 2 === 1 && i > 0) {
         document.getElementById(
           "dorders"
