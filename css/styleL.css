@@ -1,8 +1,10 @@
-/**   D A R K    M O D E   **/
+/**   L I T E    M O D E   **/
 body {
   font-size: 16px;
-  color: white;
-  background-color: #61122f;
+  /*newlook*/
+  color: #61122f;
+  /*newlook*/
+  background-color: white;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -43,6 +45,7 @@ body {
 
 #jumbotran-main-text hr {
   width: 40%;
+  color: #951c49;
 }
 .navbar-brand h1 {
   /*Restaurant Name*/
@@ -125,6 +128,8 @@ body {
 }
 .panel-footer div.row {
   margin-bottom: 35px;
+  /*newlook*/
+  color: white;
 }
 #hours,
 #address {
@@ -160,7 +165,7 @@ body {
 #menu-tile:hover,
 #specials-tile:hover,
 #map-tile:hover {
-  box-shadow: 0 1px 15px 1px #cccccc;
+  box-shadow: 0 1px 15px 1px #3f0c1f;
 }
 
 #menu-tile {
@@ -177,6 +182,7 @@ body {
   background-position: center;
 }
 
+/*new look*/
 #jumbotran-main-text,
 #jumbotran-sub-text {
   color: white;
@@ -258,6 +264,7 @@ body {
 }
 .menu-item-tile hr {
   width: 80%;
+  color: #951c49;
 }
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
@@ -334,35 +341,34 @@ h3.menu-item-title {
   color: white;
 }
 
-#PackSize {
-  color: #61122f;
-}
 /* END SINGLE CATEGORY PAGE */
 /* Start Success Page */
 #success-title {
   margin-bottom: 50px;
+  margin-top: 50px;
   font-family: "Courier New", Courier, monospace;
 }
 
 #quantityofsweetpacks,
 #packsize,
-#pricelabelofsweetpacks,
-#priceofsweetpacks {
+#pricelabelofsweetpacks {
   display: inline-block;
+  color: #61122f;
   width: 150px;
   text-align: left;
-  border: 1px solid #61122f;
+  /*newlook*/
+  border: 1px solid white;
 }
 
 [id^="quantityselected"],
-[id^="PackSize"] {
+[id^="PackSize"],
+[id^="priceofsweetpacks"] {
   color: #61122f;
   width: 80px;
 }
 
 [id^="priceofsweetpacks"] {
-  color: white;
-  width: 80px;
+  text-align: right;
 }
 .btn-primary,
 .btn-primary:hover,
@@ -478,6 +484,7 @@ h3.menu-item-title {
   }
   .panel-footer section hr {
     width: 50%;
+    color: #951c49;
   }
   /* End Footer */
   .navbar-brand h1 {
@@ -641,6 +648,7 @@ h3.menu-item-title {
   }
   .panel-footer section hr {
     width: 50%;
+    color: #951c49;
   }
   /* End Footer */
   /* Home page */
@@ -726,5 +734,6 @@ h3.menu-item-title {
 
   hr {
     width: 60%;
+    color: #951c49;
   }
 }
