@@ -13,8 +13,10 @@ body {
   background-color: #fdc426;
   border-radius: 0;
   border: 0;
+  /* Make the nav bar fixed */
   position: fixed;
   width: 100%;
+  /* Make the nav bar come to the front */
   z-index: 1100;
 }
 
