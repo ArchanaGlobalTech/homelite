@@ -256,9 +256,11 @@ body {
   margin-bottom: 50px;
 }
 
-#menu-categories-title,
+#menu-categories-title {
+  margin-top: 0px;
+}
 #cart-title {
-  margin-top: 130px;
+  margin-top: 60px;
 }
 /* END MENU CATEGORIES PAGE */
 
@@ -390,6 +392,14 @@ h3.menu-item-title {
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
   }
+
+  #complete-body-under-nav {
+    height: 130px;
+  }
+
+  #menu-categories-title {
+    margin-top: 0px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -401,6 +411,13 @@ h3.menu-item-title {
     width: 190px;
     margin: 0px 15px 10px 0;
   }
+  #menu-categories-title {
+    margin-top: 0px;
+  }
+  #complete-body-under-nav {
+    height: 130px;
+  }
+
   /* End Header */
   .container .jumbotron {
     background: url("../img/jumbotran_992.jpg") no-repeat;
@@ -437,6 +454,10 @@ h3.menu-item-title {
     background-color: #fdc426 !important;
   }
 
+  #menu-categories-title {
+    margin-top: 10px;
+  }
+
   #nvbr01 h1 {
     /*Restaurant Name*/
     font-family: "Lora", serif;
@@ -454,14 +475,18 @@ h3.menu-item-title {
     margin-bottom: 10px;
   }
 
+  #complete-body-under-nav {
+    height: 130px;
+  }
+
   #call-btn > a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #fdc426;
-    color: #951c49;
+    border: 2px solid #fdc426;
+    background-color: white;
+    color: rgb(15, 129, 62);
   }
 
   #xs-deliver {
@@ -523,15 +548,20 @@ h3.menu-item-title {
     margin-right: 5px;
   }
 
+  #complete-body-under-nav {
+    height: 130px;
+  }
+
   #call-btn > a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #fdc426;
-    color: #951c49;
+    border: 2px solid #fdc426;
+    background-color: white;
+    color: rgb(15, 129, 62);
   }
+
   #xs-deliver {
     margin-top: 5px;
     font-size: 0.7em;
@@ -543,14 +573,6 @@ h3.menu-item-title {
     padding: 0;
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
-  }
-  #collapsable-nav a {
-    font-size: 1.2em;
-  }
-
-  #collapsable-nav a span {
-    font-size: 1em;
-    margin-right: 5px;
   }
 
   #menu-tile,
@@ -693,15 +715,21 @@ h3.menu-item-title {
     width: 100%;
   }
 
+  #complete-body-under-nav {
+    height: 100px;
+  }
+
   #call-btn > a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #fdc426;
-    color: #951c49;
+    padding-bottom: 5px;
+    border: 2px solid #fdc426;
+    background-color: white;
+    color: rgb(15, 129, 62);
   }
+
   #xs-deliver {
     margin-top: 5px;
     font-size: 0.7em;
