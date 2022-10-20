@@ -25,7 +25,9 @@ body {
 }
 
 #logo-img {
-  background: url("../img/restaurant-logo_medium.jpg") no-repeat;
+  background: url("../img/HDlogo.jpg") no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100px;
   width: 140px;
   margin: 10px 15px 10px 0;
@@ -412,7 +414,9 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url("../img/restaurant-logo_medium.jpg") no-repeat;
+    background: url("../img/HDlogo.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100px;
     width: 190px;
     margin: 0px 15px 10px 0;
@@ -694,7 +698,9 @@ h3.menu-item-title {
   }
   /* Header */
   #logo-img {
-    background: url("../img/restaurant-logo_medium.jpg") no-repeat;
+    background: url("../img/HDlogo.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 95px;
     width: 134px;
     margin: 5px 0px 5px 0px;
