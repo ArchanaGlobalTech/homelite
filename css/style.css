@@ -688,13 +688,16 @@ h3.menu-item-title {
     font-family: "Libre Bodoni", serif;
     /*color: #951c49;*/
     color: white;
-    font-size: 2.75em;
+    font-size: 1.5em;
     font-weight: bold;
     /*text-shadow: 1px 1px 1px #222;*/
     margin-top: 10;
     line-height: 0.75;
     margin-left: 0px;
     display: block;
+    max-width: 190px;
+    word-wrap: break-word;
+    line-height: 1.2;
   }
   /* Header */
   #logo-img {
@@ -769,19 +772,6 @@ h3.menu-item-title {
     text-transform: uppercase;
   }
 
-  #nvbr01 h1 {
-    /*Restaurant Name*/
-    font-family: "Libre Bodoni", serif;
-    /*color: #951c49;*/
-    color: white;
-    font-size: 1.3em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 10;
-    margin-bottom: 0;
-    line-height: 0.75;
-    margin-left: 0px;
-  }
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
