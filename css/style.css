@@ -230,11 +230,12 @@ body {
 /* MENU CATEGORIES PAGE */
 .category-tile {
   position: relative;
-  border: 2px solid #3f0c1f;
+  border: 0px solid #3f0c1f;
   overflow: hidden;
   width: 200px;
   height: 200px;
   margin: 0 auto 15px;
+  box-shadow: 0 0 10px #3f0c1f;
 }
 .category-tile span {
   position: absolute;
