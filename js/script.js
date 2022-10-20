@@ -138,7 +138,7 @@ window.addEventListener(
                     <div id="add-to-cart-division">
                     <button id="placeorder_` +
           i +
-          `" type="button" class="btn btn-primary">Add to Cart</button></div>
+          `" type="button" class="btn btn-primary mx-auto" >Add to Cart</button></div>
                 </div>
                     </p>
                     </div>
