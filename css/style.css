@@ -13,7 +13,8 @@ body {
 }
 /**Header**/
 #header-nav {
-  background-color: #fdc426;
+  /*background-color: #fdc426;*/
+  background-color: #e4312c;
   border-radius: 0;
   border: 0;
   /* Make the nav bar fixed */
@@ -48,18 +49,20 @@ body {
 
 #jumbotran-main-text hr {
   width: 40%;
-  color: #951c49;
+  /*color: #951c49;*/
+  color: white;
 }
 .navbar-brand h1 {
   /*Restaurant Name*/
-  font-family: "Lora", serif;
-  color: #951c49;
+  font-family: "Libre Bodoni", serif;
+  /*color: #951c49;*/
+  color: white;
   font-size: 1.75em;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  font-weight: bolder;
+  /*text-shadow: 1px 1px 1px #222;*/
   margin-top: 10;
   margin-bottom: 0;
-
+  display: block;
   line-height: 0.75;
 }
 
@@ -84,7 +87,8 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951c49;
+  /*color: #951c49;*/
+  color: white;
   text-align: center;
 }
 #nav-list a:hover {
@@ -106,14 +110,14 @@ body {
 }
 #phone div {
   /*Call us for home delivery */
-  color: #557c3e;
+  color: #fdc426;
   text-align: right;
   padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid white;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -420,6 +424,10 @@ h3.menu-item-title {
     height: 130px;
   }
 
+  .navbar-brand {
+    padding-top: auto;
+  }
+
   /* End Header */
   .container .jumbotron {
     background: url("../img/jumbotran_992.jpg") no-repeat;
@@ -447,6 +455,10 @@ h3.menu-item-title {
     border: 2px solid #3f0c1f;
   }
 
+  .navbar-brand {
+    padding-top: auto;
+  }
+
   .btn-primary,
   .btn-primary:hover,
   .btn-primary:active,
@@ -462,8 +474,9 @@ h3.menu-item-title {
 
   #nvbr01 h1 {
     /*Restaurant Name*/
-    font-family: "Lora", serif;
-    color: #951c49;
+    font-family: "Libre Bodoni", serif;
+    /*color: #951c49;*/
+    color: white;
     font-size: 1.75em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -493,7 +506,7 @@ h3.menu-item-title {
 
   #xs-deliver {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 0.7em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -503,7 +516,7 @@ h3.menu-item-title {
 @media (min-width: 478px) and (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
+    padding-top: auto;
     height: 80px;
   }
 
@@ -567,7 +580,7 @@ h3.menu-item-title {
 
   #xs-deliver {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 0.7em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -605,11 +618,12 @@ h3.menu-item-title {
 
   #nvbr01 h1 {
     /*Restaurant Name*/
-    font-family: "Lora", serif;
-    color: #951c49;
+    font-family: "Libre Bodoni", serif;
+    /*color: #951c49;*/
+    color: white;
     font-size: 1.75em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    font-weight: bolder;
+    /*text-shadow: 1px 1px 1px #222;*/
     margin-top: 10;
     margin-bottom: 0;
     line-height: 0.75;
@@ -655,7 +669,7 @@ h3.menu-item-title {
   /* Header */
   /* Header */
   .navbar-brand {
-    padding-top: 0px;
+    padding-top: 5px;
     height: 80px;
   }
 
@@ -667,22 +681,23 @@ h3.menu-item-title {
   .navbar-brand h1 {
     /* Restaurant name */
     /*Restaurant Name*/
-    font-family: "Lora", serif;
-    color: #951c49;
-    font-size: 1.75em;
+    font-family: "Libre Bodoni", serif;
+    /*color: #951c49;*/
+    color: white;
+    font-size: 2.75em;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    /*text-shadow: 1px 1px 1px #222;*/
     margin-top: 10;
-    margin-bottom: 0;
     line-height: 0.75;
     margin-left: 0px;
+    display: block;
   }
   /* Header */
   #logo-img {
     background: url("../img/restaurant-logo_medium.jpg") no-repeat;
     height: 95px;
     width: 134px;
-    margin: 0px 15px 10px 0;
+    margin: 5px 0px 5px 0px;
   }
   /* End Header */
   .menu-item-photo {
@@ -742,7 +757,7 @@ h3.menu-item-title {
 
   #xs-deliver {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 0.7em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -750,9 +765,10 @@ h3.menu-item-title {
 
   #nvbr01 h1 {
     /*Restaurant Name*/
-    font-family: "Lora", serif;
-    color: #951c49;
-    font-size: 1em;
+    font-family: "Libre Bodoni", serif;
+    /*color: #951c49;*/
+    color: white;
+    font-size: 1.3em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 10;
