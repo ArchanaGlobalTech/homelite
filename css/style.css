@@ -695,9 +695,10 @@ h3.menu-item-title {
     line-height: 0.75;
     margin-left: 0px;
     display: block;
-    max-width: 190px;
+    max-width: 150px;
     word-wrap: break-word;
     line-height: 1.2;
+    text-align: center;
   }
   /* Header */
   #logo-img {
