@@ -284,7 +284,8 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3f0c1f;
+  border: 0px solid #3f0c1f;
+  box-shadow: 0 0 10px #3f0c1f;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -304,7 +305,8 @@ body {
 
 .shop-item-photo {
   position: relative;
-  border: 2px solid #3f0c1f;
+  border: 0px solid #3f0c1f;
+  box-shadow: 0 0 10px #3f0c1f;
   overflow: hidden;
   padding: 0;
   margin-right: auto;
