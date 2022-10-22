@@ -66,6 +66,7 @@ body {
   margin-bottom: 0;
   display: block;
   line-height: 0.75;
+  font-stretch: ultra-condensed;
 }
 
 .navbar-brand a:hover,
@@ -487,6 +488,7 @@ h3.menu-item-title {
     margin-top: 10;
     margin-bottom: 0;
     line-height: 0.75;
+    font-stretch: ultra-condensed;
   }
 
   #success-title {
