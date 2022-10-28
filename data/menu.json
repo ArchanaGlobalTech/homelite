@@ -12,7 +12,7 @@
     "name": "Badam Kathili",
     "pricing": { "250 gm": 325, "500 gm": 650, "1 kg": 1300 },
     "category": "Kathilis",
-    "image": "img/menu/B/B.jpg",
+    "image": "img/menu/B/A.jpg",
     "description": "Badam Kathili, an Indian style fudge with goodness of almonds!"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Pista Kathili",
     "pricing": { "250 gm": 363, "500 gm": 725, "1 kg": 1450 },
     "category": "Kathilis",
-    "image": "img/menu/B/C.jpg",
+    "image": "img/menu/B/A.jpg",
     "description": "Pistha Kathili, a perfect treat for your sweet cravings!"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Kesar Kathili",
     "pricing": { "250 gm": 363, "500 gm": 725, "1 kg": 1450 },
     "category": "Kathilis",
-    "image": "img/menu/B/D.jpg",
+    "image": "img/menu/B/A.jpg",
     "description": "Kesar katli, a delicious Indian sweetwith the goodness of nuts and kesar!"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Gulkhand Kathili",
     "pricing": { "250 gm": 363, "500 gm": 725, "1 kg": 1450 },
     "category": "Kathilis",
-    "image": "img/menu/B/E.jpg",
+    "image": "img/menu/B/A.jpg",
     "description": "Fascinating, alluring and rich Gulab Kaju Katli is a unique combination of aromatic fragrance of the dried rose petals and Rich Cashews."
   },
   {
@@ -44,7 +44,7 @@
     "name": "Chocolate Kathili",
     "pricing": { "250 gm": 363, "500 gm": 725, "1 kg": 1450 },
     "category": "Kathilis",
-    "image": "img/menu/B/F.jpg",
+    "image": "img/menu/B/A.jpg",
     "description": "A sweet conflagration of sugar, cocoa powder and cashew bits."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Kaju Honeydew",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/G.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Honeydew, experience the richness of dry fruits mixture folded in honey!"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Kaju Cassata",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/H.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Cassata, filled with a rich flavor of cashews and crisp nuts!."
   },
   {
@@ -68,7 +68,7 @@
     "name": "Kaju Samosa",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/I.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Samosa, an exquisite sweet filled with cashews, almonds and adorned with silver leaves!"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Kaju Chakra",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/J.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Cassata, filled with a rich flavor of cashews and hand crafted in he shape of a chakra!"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Kaju Paan",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Paan, a delicious sweet made up of cashews and gulkhand with a refreshing look!"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Kaju Kesar Sandwich",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Kesar Sandwich, a creative cashew sweet with the goodness of kesar!"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Kaju Anjeer",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Anjeer, an exotic blend of cashews and figs that will leave you craving for more!"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Kaju Kamalbhog",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Kamalbhog, a sweet treat cut into a beautiful lotus!"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Kaju Pista Roll",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju Pista Roll, filled with the goodness of cashews and pistachio's!"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Kaju Kesar Roll",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A sweet roll made with the goodness of cashews mixed with kesar!"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Kaju Cake",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "Kaju cake, a traditional sweet with an unusual flavor"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Apple",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of an apple!"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Orange",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of an orange!"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Mango",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of a mango!"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Watermelon",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of a watermelon!"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Strawberry",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of a strawberry!"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Banana",
     "pricing": { "250 gm": 350, "500 gm": 700, "1 kg": 1400 },
     "category": "Kaju Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/B.jpg",
     "description": "A delicious cashew sweet in the shape of a banana!"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Traditional Hard",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Mysurpauk",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/C.jpg",
     "description": "Traditional Mysurpauk, a taste that brings back your childhood memories!"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Ghee special",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Mysurpauk",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/C.jpg",
     "description": "Ghee Mysurpauk, our best seller!"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Horlicks",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Mysurpauk",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/C.jpg",
     "description": "Horlicks Mysurpauk, our best seller!"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Carrot",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Mysurpauk",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/C.jpg",
     "description": "Carrot Mysurpauk, our best seller!"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Dates",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Mysurpauk",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/C.jpg",
     "description": "Mysurpauk with the goodness of Dates!"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Motichoor",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Motichoor Ladoo, a soft delish melt in the mouth with tiny pearls of boondhi!"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Yellow Boondhi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Yellow Boondhi, a delicious mouth watering sweet!"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Tirupathi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Tirupathi Ladoo!"
   },
   {
@@ -252,7 +252,7 @@
     "name": "Rainbow Boondhi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Rainbow Boondhi, a delicious mouth watering sweet that brings back your childhood memories!"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Maa Ladoo",
     "pricing": { "250 gm": 163, "500 gm": 325, "1 kg": 650 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Maa Ladoo, a delicious and a healthy snack!"
   },
   {
@@ -268,7 +268,7 @@
     "name": "Rava Ladoo",
     "pricing": { "250 gm": 163, "500 gm": 325, "1 kg": 650 },
     "category": "Ladoo",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/D.jpg",
     "description": "Rava Ladoo, a delicious sweet ball!"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Regular White",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Soanpapdi",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/E.jpg",
     "description": "Soanpapdi, a popular Indian sweet with a light, airy, and a flaky melt-in-the-mouth texture!"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Yellow Banaras",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Soanpapdi",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/E.jpg",
     "description": "Banaras Soanpapdi, a flaky sweet for festive and special occassions!"
   },
   {
@@ -292,7 +292,7 @@
     "name": "Chocolate",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Soanpapdi",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/E.jpg",
     "description": "Chocolate Soanpapdi, a flaky sweet for festive and special occassions!"
   },
   {
@@ -300,7 +300,7 @@
     "name": "Adirasam",
     "pricing": { "250 gm": 150, "500 gm": 300, "1 kg": 600 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/F.jpg",
     "description": "Adirasam, a traditional sweet dish for all festivals!"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Jangiri",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/F.jpg",
     "description": "Jangiri, a fluffy light orange flower soaked in sugar syrup!",
     "size": "Large"
   },
@@ -317,7 +317,7 @@
     "name": "Jangiri",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/F.jpg",
     "description": "Mini Jangiri, every child's delight!",
     "size": "Mini"
   },
@@ -326,7 +326,7 @@
     "name": "Jilebi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Jilebi, a round spiral sweet!",
     "size": "Large"
   },
@@ -335,7 +335,7 @@
     "name": "Jilebi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Mini Jilebi, every child's delight!",
     "size": "Mini"
   },
@@ -344,7 +344,7 @@
     "name": "Balushahi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Balushahi, a glazed doughnut for the Indian tastebuds!",
     "size": "Large"
   },
@@ -353,7 +353,7 @@
     "name": "Balushahi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Balushahi, a glazed doughnut for the Indian tastebuds!",
     "size": "Mini"
   },
@@ -362,7 +362,7 @@
     "name": "Suryakala",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Suryakala, crispy outer and soft inner, sun shaped sweet with plenty of crumbled Khoya!"
   },
   {
@@ -370,7 +370,7 @@
     "name": "Chandrakala",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Chandrakala, crispy outer and soft inner, crescent shaped sweet with plenty of crumbled Khoya!"
   },
   {
@@ -378,7 +378,7 @@
     "name": "Sweet Boondhi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Traditional",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/G.jpg",
     "description": "Sweet Boondhi, a delicious mouth watering snack!"
   },
   {
@@ -386,7 +386,7 @@
     "name": "Sweet Samosa",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/H.jpg",
     "description": "An all time favorite spring roll!"
   },
   {
@@ -394,7 +394,7 @@
     "name": "Milk Pheni",
     "pricing": { "250 gm": 213, "500 gm": 425, "1 kg": 850 },
     "category": "Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/H.jpg",
     "description": "Milk Pheni, fried in ghee and tastes like heaven whn served with hot or chill milk!"
   },
   {
@@ -402,7 +402,7 @@
     "name": "Milk Halwa",
     "pricing": { "250 gm": 215, "500 gm": 430, "1 kg": 860 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Milk Halwa, a delicious, delightful sweet prepared carefully with simmered milk"
   },
   {
@@ -410,7 +410,7 @@
     "name": "Badam Halwa",
     "pricing": { "250 gm": 375, "500 gm": 750, "1 kg": 1500 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Badam Halwa, goodness of almonds!"
   },
   {
@@ -418,7 +418,7 @@
     "name": "Special Cashew Halwa",
     "pricing": { "250 gm": 210, "500 gm": 420, "1 kg": 840 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Special Cashew Halwa, fluffy and slips through your taste buds!"
   },
   {
@@ -426,7 +426,7 @@
     "name": "Bombay Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Bombay Halwa, our all time best seller!"
   },
   {
@@ -434,7 +434,7 @@
     "name": "Malabar Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Malabar Halwa, an exceptional taste with its most authentic flavor!"
   },
   {
@@ -442,7 +442,7 @@
     "name": "Dry Fruit Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Dry Fruit Halwa, a delicious sweet made from figs, dates, pistachios, almonds, cashew nuts and walnuts!"
   },
   {
@@ -450,7 +450,7 @@
     "name": "Fresh Fruit Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Fresh Fruit Halwa, a delicious sweet made from fresh seasonal fruits!"
   },
   {
@@ -458,7 +458,7 @@
     "name": "Pineapple Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Pineapple Halwa, our best seller!"
   },
   {
@@ -466,7 +466,7 @@
     "name": "Tirunelveli Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Tirunelveli Halwa, prepared from the outstanding recipe!"
   },
   {
@@ -474,7 +474,7 @@
     "name": "Sohan Halwa",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Special Halwas",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/I.jpg",
     "description": "Sohan Halwa, a traditional Indian dessert!"
   },
   {
@@ -482,7 +482,7 @@
     "name": "Kashmir Cake",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Specials",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/H.jpg",
     "description": "Kashmir Cake, for all special occasions!"
   },
   {
@@ -490,7 +490,7 @@
     "name": "Milk Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -498,7 +498,7 @@
     "name": "Special Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -506,7 +506,7 @@
     "name": "Coconut Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -514,7 +514,7 @@
     "name": "Dry Fruit Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Dry Fruit Burfi, wholesome and healthy!"
   },
   {
@@ -522,7 +522,7 @@
     "name": "Gulkhand Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -530,7 +530,7 @@
     "name": "Chocolate Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Chocolate Burfi, two layered mithai with a dense sweet fudge!"
   },
   {
@@ -538,7 +538,7 @@
     "name": "Motipauk Burfi",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Burfis",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/J.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -610,7 +610,7 @@
     "name": "Orange",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Milk Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/L.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -618,7 +618,7 @@
     "name": "Banana",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Milk Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/L.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -626,7 +626,7 @@
     "name": "Kesar",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Milk Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/L.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -634,7 +634,7 @@
     "name": "Chocolate",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Milk Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/L.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -642,7 +642,7 @@
     "name": "Bombay",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Milk Fruits",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/L.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -650,7 +650,7 @@
     "name": "Malai Sandwich",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -658,7 +658,7 @@
     "name": "Cham Cham",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Cham Cham, a spongy bengali mithai!"
   },
   {
@@ -666,7 +666,7 @@
     "name": "Malai Cham Cham",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -674,7 +674,7 @@
     "name": "Champakali",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -682,7 +682,7 @@
     "name": "Kheer Kadam",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kheer Kadam, an exotic bengali sweet with the enticing combination of khoya, milk and cardomom!"
   },
   {
@@ -690,7 +690,7 @@
     "name": "Raspberries",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -698,7 +698,7 @@
     "name": "Cool Mange",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -706,7 +706,7 @@
     "name": "White Rasgulla",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Rasgulla, a small ball shaped dumpling made with curdled milk!"
   },
   {
@@ -714,7 +714,7 @@
     "name": "Rose Rasgulla",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Bengali Sweets",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/M.jpg",
     "description": "Rose Rasgulla, a small ball shaped dumpling made with curdled milk, with a twist of paneer rose!"
   },
   {
@@ -722,7 +722,7 @@
     "name": "Dry Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Dry Jamun, served soft and smooth!"
   },
   {
@@ -730,7 +730,7 @@
     "name": "Malai Dry Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Malai Jamun, a delicious combination of Jamun with malai cream's"
   },
   {
@@ -738,7 +738,7 @@
     "name": "Kala Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Kala Jamun, a fierce black dessert!"
   },
   {
@@ -746,7 +746,7 @@
     "name": "China Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -754,7 +754,7 @@
     "name": "Paneer Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Paneer Jamun, a rose flavored rasgulla made with panner!"
   },
   {
@@ -762,7 +762,7 @@
     "name": "Gulab Jamun",
     "pricing": { "250 gm": 193, "500 gm": 385, "1 kg": 770 },
     "category": "Jamuns",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/N.jpg",
     "description": "Gulab Jamun, our most popular sweet dessert!"
   },
   {
@@ -770,7 +770,7 @@
     "name": "Kesar",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Kalakhand",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -778,7 +778,7 @@
     "name": "Malai",
     "pricing": { "250 gm": 195, "500 gm": 390, "1 kg": 780 },
     "category": "Kalakhand",
-    "image": "img/menu/B/K.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Kalakhand with a moist, juicy and a delicate grainy texture!"
   },
   {
@@ -786,7 +786,7 @@
     "name": "Rasmalai",
     "pricing": { "250 gm": 200, "500 gm": 400, "1 kg": 800 },
     "category": "Specials",
-    "image": "img/menu/B/N.JPG",
+    "image": "img/menu/B/H.JPG",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
@@ -794,7 +794,7 @@
     "name": "Basundhi",
     "pricing": { "250 gm": 200, "500 gm": 400, "1 kg": 800 },
     "category": "Specials",
-    "image": "img/menu/B/M.jpg",
+    "image": "img/menu/B/H.jpg",
     "description": "Kaju katli is a delicious traditional North Indian sweet made with cashew nuts, sugar and cardamom powder."
   },
   {
