@@ -802,7 +802,7 @@
     "name": "Cornflakes",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Cornflakes mixture."
   },
   {
@@ -810,7 +810,7 @@
     "name": "Aval",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Aval mixture."
   },
   {
@@ -818,7 +818,7 @@
     "name": "Dhall",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Dhall mixture."
   },
   {
@@ -826,7 +826,7 @@
     "name": "Navadhaniyam",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Navadhaniyam mixture."
   },
   {
@@ -834,7 +834,7 @@
     "name": "Mota",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Mota mixture."
   },
   {
@@ -842,7 +842,7 @@
     "name": "Potato Sweet",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Potato Sweet mixture."
   },
   {
@@ -850,7 +850,7 @@
     "name": "Madurai",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Madurai mixture."
   },
   {
@@ -858,7 +858,7 @@
     "name": "Chennai",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Chennai mixture."
   },
   {
@@ -866,7 +866,7 @@
     "name": "Biscuit",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Biscuit mixture."
   },
   {
@@ -874,7 +874,7 @@
     "name": "Special",
     "pricing": { "200 gm": 160, "500 gm": 400, "1 kg": 800 },
     "category": "Mixtures",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/O.jpg",
     "description": "Special mixture."
   },
   {
@@ -882,7 +882,7 @@
     "name": "Andra",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Andra Murukku."
   },
   {
@@ -890,7 +890,7 @@
     "name": "Ghee",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Ghee Murukku."
   },
   {
@@ -898,7 +898,7 @@
     "name": "Butter",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Butter Murukku."
   },
   {
@@ -906,7 +906,7 @@
     "name": "Garlic",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Garlic Murukku."
   },
   {
@@ -914,7 +914,7 @@
     "name": "Theankuzhal",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Theankuzhal Murukku."
   },
   {
@@ -922,7 +922,7 @@
     "name": "Manaparai",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Manaparai Murukku."
   },
   {
@@ -930,7 +930,7 @@
     "name": "Achu",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Achu Murukku."
   },
   {
@@ -938,7 +938,7 @@
     "name": "Kai",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Murukku",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/R.jpg",
     "description": "Kai Murukku."
   },
   {
@@ -946,7 +946,7 @@
     "name": "Cashew",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Pakora",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/Q.jpg",
     "description": "Cashew Pakora."
   },
   {
@@ -954,7 +954,7 @@
     "name": "Onion",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Pakora",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/Q.jpg",
     "description": "Onion Pakora."
   },
   {
@@ -962,7 +962,7 @@
     "name": "Ribbon",
     "pricing": { "200 gm": 130, "500 gm": 325, "1 kg": 650 },
     "category": "Pakora",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/Q.jpg",
     "description": "Ribbon Pakora."
   },
   {
@@ -970,7 +970,7 @@
     "name": "Khara",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Sev",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/F.jpg",
     "description": "Kara Sev."
   },
   {
@@ -978,7 +978,7 @@
     "name": "Pepper",
     "pricing": { "200 gm": 120, "500 gm": 300, "1 kg": 600 },
     "category": "Sev",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/F.jpg",
     "description": "Pepper Sev."
   },
   {
@@ -1026,7 +1026,7 @@
     "name": "Pepper",
     "pricing": { "200 gm": 300, "500 gm": 750, "1 kg": 1500 },
     "category": "Cashews",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/P.jpg",
     "description": "Pepper Cashews."
   },
   {
@@ -1034,7 +1034,7 @@
     "name": "Salted",
     "pricing": { "200 gm": 300, "500 gm": 750, "1 kg": 1500 },
     "category": "Cashews",
-    "image": "img/menu/B/A.jpg",
+    "image": "img/menu/B/P.jpg",
     "description": "Salted Cashews."
   },
   {
