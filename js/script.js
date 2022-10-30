@@ -64,7 +64,7 @@ window.addEventListener(
                         width="250"
                         height="150"
                         src="` +
-          menu[i].image +
+          menu[i].image.substring(1) +
           `"
                         alt="Item"
                         />
